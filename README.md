@@ -1,5 +1,5 @@
 # EnergyPlus.Net
- A client library to create/modify/extend EnergyPlus simulation files in a way that feels natural to programmers with native type support, integrated documentation and automatic serialization. The days of string replacement in IDF text snippets, creating manual wrapper classes and worry about proper serialization are over.
+ A client library to deal with EnergyPlus simulation files in a way that feels natural to programmers with native type support, integrated documentation and automatic serialization. The days of string replacement in IDF text snippets, creating manual wrapper classes and worry about proper serialization are over.
 
 ![Create Simulation file](/docs/Images/Example.png)
 
@@ -8,6 +8,6 @@
 
 ## Functionality
 
-- Creating/Extending EnergyPlus simulation files
+- Creating/Modifying/Extending EnergyPlus simulation files
 - Merging IDF + IDF, epJSON + epJSON, IDF + epJSON
 - Bidirectional translation between IDF <-> epJSON
